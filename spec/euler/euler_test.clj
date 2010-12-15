@@ -17,9 +17,14 @@
 
   (it "solves #3"
     (should= 29 (euler-3 13195))
-    (should= 6857 (euler-3 600851475143))))
+    (should= 6857 (euler-3 600851475143)))
 
-(describe "Euler #1"
+  (it "solved #4"
+    (should= 9009 (euler-4 2))
+    (should= 906609 (euler-4 3)))
+  )
+
+(describe "Naturals and multiples"
 
   (it "knows if a number is a multiple of 3 or 5"
     (let [multiple? (multiple-filter 3 5)]
@@ -43,7 +48,7 @@
     (should= [1 2 3 4 5 6 7 8 9] (naturals-upto 10)))
   )
 
-(describe "Euler #2"
+(describe "Fibonacci"
 
   (it "calculates fibonacci sequence"
     (should= 0 (nth (fib) 0))
@@ -91,6 +96,18 @@
 
   (it "factors 2^100"
     (should= (repeat 100 2) (factors-of (Math/pow 2 100)))))
+
+(describe "Euler #3"
+  (it "knows a palindrome when it sees one"
+    (should (palindrome? 1))
+    (should (palindrome? 11))
+    (should (palindrome? 101))
+    (should (palindrome? 232))
+    (should (palindrome? 12321))
+    (should (palindrome? 9876789))
+    (should (palindrome? 654333456))
+    (should-not (palindrome? 123))
+    (should-not (palindrome? 900109))))
 
 
 (run-specs)
