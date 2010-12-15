@@ -1,4 +1,4 @@
-(ns euler.problem2)
+(ns euler.level1.problem2)
 
 (defn fib []
   (map first

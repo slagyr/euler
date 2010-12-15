@@ -1,4 +1,4 @@
-(ns euler.problem4)
+(ns euler.level1.problem4)
 
 (defn palindrome? [x]
   (let [s (str x)]

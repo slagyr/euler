@@ -1,7 +1,7 @@
-(ns euler.problem1_spec
+(ns euler.level1.problem1_spec
   (:use
     [speclj.core]
-    [euler.problem1]))
+    [euler.level1.problem1]))
 
 (describe "Naturals and multiples"
 
@@ -14,17 +14,6 @@
       (should (multiple? 15))
       (should-not (multiple? 1))
       (should-not (multiple? 98))))
-
-  (it "has natural numbers"
-    (should= 1 (first (naturals)))
-    (should= 2 (second (naturals)))
-    (should= 3 (nth (naturals) 2))
-    (should= 1000 (nth (naturals) 999)))
-
-  (it "gets naturals upto"
-    (should= [1 2] (naturals-upto 3))
-    (should= [1 2 3 4] (naturals-upto 5))
-    (should= [1 2 3 4 5 6 7 8 9] (naturals-upto 10)))
 
   (it "solves #1"
     (should= 23 (euler-1 10))

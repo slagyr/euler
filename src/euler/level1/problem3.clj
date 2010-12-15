@@ -1,4 +1,4 @@
-(ns euler.problem3)
+(ns euler.level1.problem3)
 
 (defn factors-of [n]
   (loop [factors [] divisor 2 n n]

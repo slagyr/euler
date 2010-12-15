@@ -1,4 +1,4 @@
-(ns euler.problem5)
+(ns euler.level1.problem5)
 
 ; Need to improve performance on this one.
 ; Find all the primes less than n and start with the product of them

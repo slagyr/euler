@@ -1,7 +1,7 @@
-(ns euler.problem2-spec
+(ns euler.level1.problem2-spec
   (:use
     [speclj.core]
-    [euler.problem2]))
+    [euler.level1.problem2]))
 
 (describe "Euler Problem #2"
 

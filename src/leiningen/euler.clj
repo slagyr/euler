@@ -3,7 +3,7 @@
     [java.io FileOutputStream]))
 
 (def spec-template
-"(ns euler.problem!N!-spec
+"(ns euler.level1.problem!N!-spec
   (:use
     [speclj.core]
     [euler.problem!N!]))
@@ -18,7 +18,7 @@
 )
 
 (def src-template
-"(ns euler.problem!N!)
+"(ns euler.level1.problem!N!)
 
 (defn euler-!N! [n]
   )
@@ -37,8 +37,8 @@
 
 (defn euler [n]
   (let [spec-content (add-N spec-template n)
-        spec-file (str "spec/euler/problem" n "_spec.clj")
+        spec-file (str "spec/euler/level1/problem" n "_spec.clj")
         src-content (add-N src-template n)
-        src-file (str "src/euler/problem" n ".clj")]
+        src-file (str "src/euler/level1/problem" n ".clj")]
     (write-file spec-file spec-content)
     (write-file src-file src-content)))
