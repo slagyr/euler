@@ -1,9 +1,8 @@
 (ns euler.euler)
 
-(defn multiple? [n]
-  (or
-    (= 0 (rem n 3))
-    (= 0 (rem n 5))))
+(defn multiple-filter [& factors]
+  (fn [n]
+    (some #(= 0 (rem n %)) factors)))
 
 (def naturals (fn [] (iterate inc 1)))
 
@@ -11,8 +10,9 @@
   (take (dec n) (naturals)))
 
 (defn euler-1 [n]
-  (apply +
-    (filter multiple? (naturals-upto n))))
+  (let [multiple-of-3-or-5? (multiple-filter 3 5)]
+    (apply +
+      (filter multiple-of-3-or-5? (naturals-upto n)))))
 
 (defn fib []
   (map first
