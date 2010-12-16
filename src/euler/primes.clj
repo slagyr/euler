@@ -8,6 +8,8 @@
         (recur (conj factors divisor) divisor (/ n divisor))
         (recur factors (inc divisor) n)))))
 
+(declare primes)
+
 (defn prime? [n]
   (if (< n 2)
     false
