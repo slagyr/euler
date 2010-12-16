@@ -9,8 +9,9 @@
     [euler.level1.problem!N!]))
 
 (describe \"Euler Problem #!N!\"
-  (it \"Needs Work\"
-    )
+
+  (it \"Solves #!N!\"
+    (should= -1 (euler-!N! -1)))
   )
 
 (run-specs)

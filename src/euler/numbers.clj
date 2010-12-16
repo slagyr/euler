@@ -4,3 +4,6 @@
 
 (defn naturals-upto [n]
   (take (dec n) (naturals)))
+
+(defn sq [n]
+  (* n n))
