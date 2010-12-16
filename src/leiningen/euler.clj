@@ -6,7 +6,7 @@
 "(ns euler.level1.problem!N!-spec
   (:use
     [speclj.core]
-    [euler.problem!N!]))
+    [euler.level1.problem!N!]))
 
 (describe \"Euler Problem #!N!\"
   (it \"Needs Work\"
