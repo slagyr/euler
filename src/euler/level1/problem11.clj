@@ -1,6 +1,7 @@
 (ns euler.level1.problem11
   (:use
-    [euler.sequtil :only (bias-slice)])
+    [euler.sequtil :only (bias-slice)]
+    [euler.io :only (parse-lines)])
   (:require
     [clojure.string :as string]))
 
@@ -29,11 +30,9 @@
 
 
 (defn parse-digit-grid [src]
-  (let [src (string/trim src)
-        lines (map string/trim (string/split src #"\n|\r\n"))]
-    (for [line lines]
-      (let [tokens (string/split line #" ")]
-        (map #(Integer/parseInt %) tokens)))))
+  (for [line (parse-lines src)]
+    (let [tokens (string/split line #" ")]
+      (map #(Integer/parseInt %) tokens))))
 
 (defn columns-of [grid]
   (for [c (range (count grid))]
