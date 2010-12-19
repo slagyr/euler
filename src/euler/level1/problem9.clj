@@ -25,5 +25,7 @@
 (defn euler-9 [n]
   (let [triplets (pythangorian-triplets-summing-less-than (inc n))
         result (some #(if (= n (apply + %)) %) triplets)]
+    (doseq [tri triplets]
+      (println "tri: " tri))
     (if result
       (apply * result))))

@@ -1,4 +1,6 @@
 (ns euler.level1.problem8
+  (:use
+    [euler.sequtil :only (bias-slice)])
   (:require
     [clojure.string :as string]))
 
@@ -27,7 +29,7 @@
 (defn quintets []
   (let [trimmed-src (string/replace digit-src #"\W" "")
         digits (vec (map #(Integer/parseInt (str %)) trimmed-src))]
-    (map #(subvec digits (- % 5) %) (range 5 (inc (count digits))))))
+    (bias-slice digits 5)))
 
 (defn euler-8 []
   (let [products (map #(apply * %) (quintets))]
