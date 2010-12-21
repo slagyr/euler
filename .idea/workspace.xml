@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/clojure_project.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iml" afterPath="$PROJECT_DIR$/euler.iml" />
     </list>
     <ignored path="sample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,19 +61,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="problem15.clj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/euler/level1/problem15.clj">
+      <file leaf-file-name="problem16_spec.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem16_spec.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="45" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.8584071">
+            <state line="14" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.24778761">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem15_spec.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem15_spec.clj">
+      <file leaf-file-name="problem16.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/euler/level1/problem16.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="25" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.0">
+            <state line="10" column="47" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,6 +99,8 @@
         <option value="$PROJECT_DIR$/src/euler/euler.clj" />
         <option value="$PROJECT_DIR$/spec/euler/level1/problem15_spec.clj" />
         <option value="$PROJECT_DIR$/src/euler/level1/problem15.clj" />
+        <option value="$PROJECT_DIR$/src/euler/level1/problem16.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem16_spec.clj" />
       </list>
     </option>
   </component>
@@ -432,7 +429,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24906467" sideWeight="0.670778" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -494,7 +491,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/euler/level1/problem15.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="45" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.8584071">
+        <state line="67" column="120" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.6814159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem16.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="47" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem16_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.24778761">
           <folding />
         </state>
       </provider>
