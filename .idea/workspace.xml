@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample.iws" />
@@ -61,19 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="problem16_spec.clj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem16_spec.clj">
+      <file leaf-file-name="problem17_spec.clj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem17_spec.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.24778761">
+            <state line="66" column="18" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem16.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/euler/level1/problem16.clj">
+      <file leaf-file-name="problem17.clj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/euler/level1/problem17.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+            <state line="40" column="28" selection-start="543" selection-end="543" vertical-scroll-proportion="0.48689654">
               <folding />
             </state>
           </provider>
@@ -93,14 +94,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/project.clj" />
-        <option value="$PROJECT_DIR$/spec/sample/core_test.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/euler_test.clj" />
-        <option value="$PROJECT_DIR$/src/euler/euler.clj" />
         <option value="$PROJECT_DIR$/spec/euler/level1/problem15_spec.clj" />
         <option value="$PROJECT_DIR$/src/euler/level1/problem15.clj" />
         <option value="$PROJECT_DIR$/src/euler/level1/problem16.clj" />
         <option value="$PROJECT_DIR$/spec/euler/level1/problem16_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem18_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem19_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem20_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem21_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem22_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem23_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem24_spec.clj" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem25_spec.clj" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.idea/.name" />
+        <option value="$PROJECT_DIR$/spec/euler/level1/problem17_spec.clj" />
+        <option value="$PROJECT_DIR$/src/euler/level1/problem17.clj" />
       </list>
     </option>
   </component>
@@ -137,11 +146,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,67 +175,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="level1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -242,19 +189,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="level1" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -272,9 +215,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Clojure Script.problem15_spec">
     <configuration default="false" name="problem15_spec" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
@@ -412,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -422,17 +365,17 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24906467" sideWeight="0.670778" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3350108" sideWeight="0.53978777" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4602122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -475,37 +418,92 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.081951216">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem15_spec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="25" selection-start="2515" selection-end="2515" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/euler/level1/problem15.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="120" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.6814159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem16.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="67" column="120" selection-start="1995" selection-end="1995" vertical-scroll-proportion="0.6814159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem16_spec.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.24778761">
+        <state line="14" column="17" selection-start="334" selection-end="334" vertical-scroll-proportion="0.44444445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem16.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="47" selection-start="243" selection-end="243" vertical-scroll-proportion="0.31746033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem18_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="91" selection-end="990" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem19_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="91" selection-end="609" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem20_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="52" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem21_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem22_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="91" selection-end="647" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem23_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="92" selection-end="1035" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem24_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="91" selection-end="503" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem25_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="45" selection-start="7455" selection-end="7455" vertical-scroll-proportion="0.35674158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/ant.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem17_spec.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="18" selection-start="2211" selection-end="2211" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem17.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="543" selection-end="543" vertical-scroll-proportion="0.48689654">
           <folding />
         </state>
       </provider>
