@@ -8,7 +8,7 @@
   7 "seventy"
   6 "sixty"
   5 "fifty"
-  4 "fourty"
+  4 "forty"
   3 "thirty"
   2 "twenty"
   })

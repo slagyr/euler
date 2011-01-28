@@ -40,7 +40,7 @@
   (it "can say the numbers less than 100"
     (should= "twenty-one" (say 21))
     (should= "thirty-two" (say 32))
-    (should= "fourty-three" (say 43))
+    (should= "forty-three" (say 43))
     (should= "fifty-four" (say 54))
     (should= "sixty-five" (say 65))
     (should= "seventy-six" (say 76))
@@ -64,7 +64,7 @@
 
   (it "Solves #17"
     (should= 19 (euler-17 5))
-    (should= 21224 (euler-17 1000))
+    (should= 21124 (euler-17 1000))
     )
   )
 
