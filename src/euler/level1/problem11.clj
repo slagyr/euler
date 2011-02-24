@@ -1,7 +1,7 @@
 (ns euler.level1.problem11
   (:use
     [euler.sequtil :only (bias-slice)]
-    [euler.io :only (parse-lines)])
+    [euler.io :only (str->grid)])
   (:require
     [clojure.string :as string]))
 
@@ -28,12 +28,6 @@
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48")
 
 
-
-(defn parse-digit-grid [src]
-  (for [line (parse-lines src)]
-    (let [tokens (string/split line #" ")]
-      (map #(Integer/parseInt %) tokens))))
-
 (defn columns-of [grid]
   (for [c (range (count grid))]
     (map #(nth % c) grid)))
@@ -48,7 +42,7 @@
     (filter seq whole)))
 
 (defn euler-11 [n]
-  (let [rows (parse-digit-grid digit-src)
+  (let [rows (str->grid digit-src)
         cols (columns-of rows)
         down-diags (diagonals-of rows)
         up-diags (diagonals-of (reverse rows))
