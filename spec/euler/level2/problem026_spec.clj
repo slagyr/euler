@@ -3,6 +3,8 @@
     [speclj.core]
     [euler.level2.problem026]))
 
+; http://projecteuler.net/index.php?section=problems&id=26
+
 (describe "Euler Problem #26"
 
   (it "Solves #26"

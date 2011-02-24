@@ -8,6 +8,8 @@
     [speclj.core]
     [euler.level!L!.problem!NS!]))
 
+; http://projecteuler.net/index.php?section=problems&id=!N!
+
 (describe \"Euler Problem #!N!\"
 
   (it \"Solves #!N!\"
