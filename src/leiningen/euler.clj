@@ -3,10 +3,10 @@
     [java.io FileOutputStream]))
 
 (def spec-template
-"(ns euler.level1.problem!N!-spec
+"(ns euler.level!L!.problem!NS!-spec
   (:use
     [speclj.core]
-    [euler.level1.problem!N!]))
+    [euler.level!L!.problem!NS!]))
 
 (describe \"Euler Problem #!N!\"
 
@@ -19,17 +19,21 @@
 )
 
 (def src-template
-"(ns euler.level1.problem!N!)
+"(ns euler.level!L!.problem!NS!)
 
 (defn euler-!N! [n]
   )
 "
   )
 
-(defn add-N [src n]
-  (.replace src "!N!" (str n)))
+(defn render [src mapping]
+  (reduce
+    (fn [src [key value]] (.replace src (format "!%s!" key) (str value)))
+    src
+    (seq mapping)))
 
 (defn write-file [path content]
+  (.mkdirs (.getParentFile (java.io.File. path)))
   (let [output (FileOutputStream. path)
         bytes (.getBytes content)]
     (println "writing" (count bytes) "bytes to" path)
@@ -37,9 +41,12 @@
     (.close output)))
 
 (defn euler [n]
-  (let [spec-content (add-N spec-template n)
-        spec-file (str "spec/euler/level1/problem" n "_spec.clj")
-        src-content (add-N src-template n)
-        src-file (str "src/euler/level1/problem" n ".clj")]
+  (let [n (Integer/parseInt n)
+        n-str (.format (java.text.DecimalFormat. "000") n)
+        level (inc (quot (dec n) 25))
+        spec-content (render spec-template {"N" n "NS" n-str "L" level})
+        spec-file (format "spec/euler/level%s/problem%s_spec.clj" level n-str)
+        src-content (render src-template {"N" n "NS" n-str "L" level})
+        src-file (format "src/euler/level%s/problem%s.clj" level n-str)]
     (write-file spec-file spec-content)
     (write-file src-file src-content)))
