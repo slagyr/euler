@@ -8,7 +8,8 @@
 (describe "Euler Problem #1"
 
   (it "Solves #1"
-    (should= -1 (euler-1 -1)))
+    (should= 23 (euler-1 10))
+	(should= -1 (euler-1 1000)))
   )
 
 (run-specs)
