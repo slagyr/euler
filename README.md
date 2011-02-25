@@ -1,6 +1,6 @@
 # Project Euler in Clojure
 
-Project Euler ([http://projecteuler.net](http://projecteuler.net)) is an addictive and fun way to learn a new language and practice your craft.  This project is a stub for solving Euler problems using Clojure.  It generates specs and solution stubs in an organized structure, making life just a little bit better.
+Project Euler ([http://projecteuler.net](http://projecteuler.net)) is an addictive and fun way to learn a new language and practice your craft.  This repository is a scaffold for solving Euler problems using Clojure.  It generates specs and solution stubs in an organized structure, making life just a little bit better.
 
 ## Install
 
