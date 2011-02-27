@@ -1,6 +1,5 @@
 (ns euler.level1.problem011
   (:use
-    [euler.sequtil :only (bias-slice)]
     [euler.io :only (str->grid)])
   (:require
     [clojure.string :as string]))
@@ -47,7 +46,7 @@
         down-diags (diagonals-of rows)
         up-diags (diagonals-of (reverse rows))
         all-lines (concat rows cols down-diags up-diags)
-        quad-lists (map #(bias-slice % 4) all-lines)
+        quad-lists (map #(partition 4 1 %) all-lines)
         quads (reduce concat [] quad-lists)
         products (map #(apply * %) quads)
         sorted-prods (sort products)]

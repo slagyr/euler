@@ -1,6 +1,4 @@
-(ns euler.level1.problem015
-  (:use
-    [euler.sequtil :only (bias-slice)]))
+(ns euler.level1.problem015)
 
 ;(def neighbor-masks [[0 -1] [1 0] [0 1] [-1 0]])
 ;(def step-masks [[1 0] [0 1]])
@@ -69,7 +67,7 @@
 
 
 (defn- next-pascals-triangle-row [row]
-  (let [pairs (bias-slice row 2)
+  (let [pairs (partition 2 1 row)
         innards (map #(apply + %) pairs)]
     (concat [1] innards [1])))
 
