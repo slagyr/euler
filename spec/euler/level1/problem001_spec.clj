@@ -15,6 +15,8 @@
       (should-not (multiple? 1))
       (should-not (multiple? 98))))
 
+
+
   (it "solves #1"
     (should= 23 (euler-1 10))
     (should= 233168 (euler-1 1000)))
