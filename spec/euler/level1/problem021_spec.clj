@@ -12,8 +12,27 @@
 
 (describe "Euler Problem #21"
 
+  (it "find proper divisors"
+    (should= [1 2 4 5 10 11 20 22 44 55 110] (proper-divisors 220))
+    (should= [1 2 4 71 142] (proper-divisors 284))
+    (should= [1 2 4 7 14] (proper-divisors 28))
+    (should= [1] (proper-divisors 31))
+    (should= [1] (proper-divisors 3))
+    (should= [1 2] (proper-divisors 4)))
+
+  (it "calculates d"
+    (should= 28 (d 28))
+    (should= 284 (d 220))
+    (should= 220 (d 284)))
+
+  (it "properly calculated amicable pairs"
+    (let [pairs (amicable-pairs 300)]
+      (doseq [[a b] pairs]
+        (should= b (d a))
+        (should= a (d b)))))
+
   (it "Solves #21"
-    (should= -1 (euler-21 -1)))
+    (should= 31626 (euler-21 10000)))
   )
 
 (run-specs)
