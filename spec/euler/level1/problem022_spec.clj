@@ -12,8 +12,25 @@
 
 (describe "Euler Problem #22"
 
+  (it "reads the names"
+    (let [names (read-names)]
+      (should= "MARY" (first names))
+      (should= "PATRICIA" (second names))))
+
+  (it "calculated letter values"
+    (should= 1 (letter-value \A))
+    (should= 2 (letter-value \B))
+    (should= 3 (letter-value \C))
+    (should= 26 (letter-value \Z)))
+
+  (it "calculates name value"
+    (should= 53 (name-value "COLIN"))
+    (should= 57 (name-value "MARY"))
+    (should= 77 (name-value "PATRICIA")))
+
   (it "Solves #22"
-    (should= -1 (euler-22 -1)))
+    (should= (+ (* 1 53) (* 2 57) (* 3 77)) (euler-22 ["MARY", "PATRICIA", "COLIN"]))
+    (should= 871198282 (euler-22 (read-names))))
   )
 
 (run-specs)
