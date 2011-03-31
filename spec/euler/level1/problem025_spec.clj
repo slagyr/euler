@@ -26,8 +26,17 @@
 
 (describe "Euler Problem #25"
 
+  (it "calculated min value for digits"
+    (should= 0 (min-value-with-digits 1))
+    (should= 10 (min-value-with-digits 2))
+    (should= 100 (min-value-with-digits 3))
+    (should= 1000 (min-value-with-digits 4))
+    (should= 10000 (min-value-with-digits 5)))
+
   (it "Solves #25"
-    (should= -1 (euler-25 -1)))
+    (should= 12 (euler-25 3))
+;    (should= 4782 (euler-25 1000))
+    )
   )
 
 (run-specs)

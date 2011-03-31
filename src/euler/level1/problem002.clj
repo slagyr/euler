@@ -1,8 +1,6 @@
-(ns euler.level1.problem002)
-
-(defn fib []
-  (map first
-    (iterate (fn [[a b]] [b (+ a b)]) [0 1])))
+(ns euler.level1.problem002
+  (:use
+    [euler.math :only (fib)]))
 
 (defn fibs-upto
   ([n] (fibs-upto n (fib)))

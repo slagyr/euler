@@ -1,6 +1,6 @@
 (ns euler.level1.problem006
   (:use
-    [euler.numbers]))
+    [euler.math :only (naturals)]))
 
 (defn euler-6 [n]
   (let [nums (take n (naturals))

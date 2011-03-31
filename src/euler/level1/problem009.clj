@@ -1,6 +1,6 @@
 (ns euler.level1.problem009
   (:use
-    [euler.numbers]))
+    [euler.math :only (naturals sq)]))
 
 (defn square-map [max]
   (into {} (map (fn [n] [(sq n) n]) (take max (naturals)))))

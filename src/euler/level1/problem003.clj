@@ -1,6 +1,6 @@
 (ns euler.level1.problem003
   (:use
-    [euler.primes]))
+    [euler.math :only (prime-factors-of)]))
 
 (defn euler-3 [n]
-  (last (factors-of n)))
+  (last (prime-factors-of n)))

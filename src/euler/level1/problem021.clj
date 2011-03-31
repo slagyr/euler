@@ -1,7 +1,6 @@
-(ns euler.level1.problem021)
-
-(defn proper-divisors [n]
-  (filter #(= 0 (mod n %)) (range 1 (inc (/ n 2)))))
+(ns euler.level1.problem021
+  (:use
+    [euler.math :only (proper-divisors)]))
 
 (defn d [n]
   (apply + (proper-divisors n)))
