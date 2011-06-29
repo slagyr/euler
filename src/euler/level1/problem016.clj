@@ -1,4 +1,6 @@
-(ns euler.level1.problem016)
+(ns euler.level1.problem016
+  (:use
+    [euler.sequtil :only (digits)]))
 
 (defn pow [n e]
   (loop [result (bigint n) e (dec e)]
@@ -7,6 +9,5 @@
       (recur (* result n) (dec e)))))
 
 (defn euler-16 [n]
-  (let [result (pow 2 n)
-        digits (map #(Integer/parseInt (str %)) (seq (str result)))]
-    (apply + digits)))
+  (let [result (pow 2 n)]
+    (apply + (digits result))))
