@@ -18,7 +18,9 @@
 (describe "Euler Problem #29"
 
   (it "Solves #29"
-    (should= -1 (euler-29 -1)))
+    (should= 15 (euler-29 5))
+;    (should= 9183 (euler-29 100))
+    )
   )
 
 (run-specs)
