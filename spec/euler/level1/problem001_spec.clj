@@ -9,7 +9,7 @@
 
   (it "Solves #1"
     (should= 23 (euler-1 10))
-	(should= -1 (euler-1 1000)))
+	(should= 233168 (euler-1 1000)))
   )
 
 (run-specs)
