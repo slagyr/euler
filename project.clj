@@ -1,7 +1,9 @@
 (defproject euler "1.0.0-SNAPSHOT"
   :description "FIXME: write"
-  :dependencies [[org.clojure/clojure "1.2.0"]
+  :min-lein-version "2.0.0"
+  :dependencies [[org.clojure/clojure "1.5.0"]
                  [org.clojure/clojure-contrib "1.2.0"]]
-  :dev-dependencies [[speclj "1.3.0"]]
-  :test-path "spec/"
+  :profiles {:dev {:dependencies [[speclj "2.7.5"]]}}
+  :plugins[[speclj "2.7.5"]]
+  :test-paths ["spec/"]
   )
