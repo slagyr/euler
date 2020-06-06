@@ -1,7 +1,7 @@
 (ns euler.level1.problem015-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem015]
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem015 :refer :all]
     [euler.graph]
     [euler.debug]))
 

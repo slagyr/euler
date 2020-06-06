@@ -1,7 +1,7 @@
 (ns euler.level2.problem026-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem026]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem026 :refer :all]))
 
 ;A unit fraction contains 1 in the numerator. The decimal representation of the unit fractions with denominators
 ; 2 to 10 are given:

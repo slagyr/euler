@@ -1,7 +1,7 @@
 (ns euler.level2.problem028-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem028]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem028 :refer :all]))
 
 ;Starting with the number 1 and moving to the right in a clockwise direction a 5 by 5 spiral is formed as follows:
 ;

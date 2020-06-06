@@ -1,7 +1,7 @@
 (ns euler.level2.problem032-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem032]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem032 :refer :all]))
 
 ; We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once; for example, the 5-digit number, 15234, is 1 through 5 pandigital.
 ;
@@ -32,3 +32,4 @@
     )
 
   (run-specs)
+

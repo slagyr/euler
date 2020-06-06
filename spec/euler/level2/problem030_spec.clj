@@ -1,7 +1,7 @@
 (ns euler.level2.problem030-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem030]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem030 :refer :all]))
 
 ;Surprisingly there are only three numbers that can be written as the sum of fourth powers of their digits:
 ;

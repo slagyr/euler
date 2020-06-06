@@ -1,6 +1,6 @@
 (ns euler.level1.problem016
-  (:use
-    [euler.sequtil :only (digits)]))
+  (:require
+    [euler.sequtil :refer [digits]]))
 
 (defn pow [n e]
   (loop [result (bigint n) e (dec e)]

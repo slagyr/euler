@@ -1,6 +1,6 @@
 (ns euler.level2.problem027
-  (:use
-    [euler.math :only (prime? primes)]))
+  (:require
+    [euler.math :refer [prime? primes]]))
 
 (defn quadratic-fn [a b]
   (fn [n]

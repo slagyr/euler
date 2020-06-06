@@ -1,6 +1,6 @@
 (ns euler.level1.problem018
-  (:use
-    [euler.io :only (str->grid)]))
+  (:require
+    [euler.io :refer [str->grid]]))
 
 (defn largest-sums-for-row [sums row]
   (let [padded-sums (vec (concat [0] sums [0]))

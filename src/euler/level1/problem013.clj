@@ -1,6 +1,6 @@
 (ns euler.level1.problem013
-  (:use
-    [euler.io :only (parse-lines)]))
+  (:require
+    [euler.io :refer [parse-lines]]))
 
 (def digit-src "
 37107287533902102798797998220837590246510135740250

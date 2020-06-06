@@ -1,7 +1,7 @@
 (ns euler.level1.problem001_spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem001]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem001 :refer :all]))
 
 (describe "Naturals and multiples"
 

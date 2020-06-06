@@ -1,9 +1,9 @@
 (ns euler.level2.problem032
-  (:use
-    [clojure.contrib.combinatorics :only (lex-permutations)]))
+  (:require
+    [clojure.math.combinatorics :refer [permutations]]))
 
 (defn digit-permutations []
-  (lex-permutations [1 2 3 4 5 6 7 8 9]))
+  (permutations [1 2 3 4 5 6 7 8 9]))
 
 (defn- make-num
   ([digits start] (Integer/parseInt (apply str (subvec digits start))))

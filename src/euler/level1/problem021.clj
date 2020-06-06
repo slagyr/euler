@@ -1,6 +1,6 @@
 (ns euler.level1.problem021
-  (:use
-    [euler.math :only (proper-divisors)]))
+  (:require
+    [euler.math :refer [proper-divisors]]))
 
 (defn d [n]
   (apply + (proper-divisors n)))

@@ -1,848 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/clojure_project.xml" afterPath="$PROJECT_DIR$/.idea/clojure_project.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/debug.clj" afterPath="$PROJECT_DIR$/src/euler/debug.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leiningen/euler.clj" afterPath="$PROJECT_DIR$/src/leiningen/euler.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/euler.iml" afterPath="$PROJECT_DIR$/euler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/graph.clj" afterPath="$PROJECT_DIR$/src/euler/graph.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/graph_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/graph_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/io.clj" afterPath="$PROJECT_DIR$/src/euler/io.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/io_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/io_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/math.clj" afterPath="$PROJECT_DIR$/src/euler/math.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/math_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/math_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/names.txt" afterPath="$PROJECT_DIR$/src/euler/level1/names.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem001.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem001.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem001_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem001_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem002.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem002.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem002_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem002_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem003.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem003.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem003_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem003_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem004.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem004.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem004_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem004_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem005.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem005.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem005_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem005_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem006.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem006.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem006_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem006_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem007.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem007.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem007_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem007_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem008.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem008.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem008_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem008_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem009.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem009.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem009_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem009_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem010.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem010.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem010_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem010_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem011.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem011.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem011_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem011_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem012.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem012.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem012_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem012_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem013.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem013.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem013_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem013_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem014.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem014.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem014_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem014_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem015.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem015.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem015_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem015_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem016.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem016.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem016_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem016_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem017.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem017.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem017_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem017_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem018.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem018.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem018_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem018_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem019.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem019.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem019_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem019_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem020.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem020.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem020_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem020_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem021.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem021.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem021_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem021_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem022.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem022.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem022_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem022_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem023.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem023.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem023_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem023_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem024.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem024.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem024_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem024_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level1/problem025.clj" afterPath="$PROJECT_DIR$/src/euler/level1/problem025.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level1/problem025_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level1/problem025_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem026.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem026.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem026_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem026_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem027.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem027.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem027_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem027_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem028.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem028.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem028_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem028_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem029.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem029.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem029_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem029_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem030.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem030.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem030_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem030_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem031.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem031.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem031_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem031_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level2/problem032.clj" afterPath="$PROJECT_DIR$/src/euler/level2/problem032.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level2/problem032_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level2/problem032_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/level3/problem067.clj" afterPath="$PROJECT_DIR$/src/euler/level3/problem067.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/level3/problem067_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/level3/problem067_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/euler/sequtil.clj" afterPath="$PROJECT_DIR$/src/euler/sequtil.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/euler/sequtil_spec.clj" afterPath="$PROJECT_DIR$/spec/euler/sequtil_spec.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="3bed4f74-1faf-4f2f-b78b-db846d1a2155" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/micahmartin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__fresh_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__mmargs_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_math_combinatorics_0_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__speclj_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__trptcolin_versioneer_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/euler/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clojure_project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/euler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/euler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.clj" beforeDir="false" afterPath="$PROJECT_DIR$/project.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/graph_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/graph_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/io_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/io_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem001_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem001_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem002_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem002_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem003_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem003_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem004_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem004_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem005_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem005_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem006_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem006_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem007_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem007_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem008_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem008_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem009_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem009_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem010_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem010_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem011_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem011_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem012_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem012_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem013_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem013_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem014_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem014_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem015_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem015_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem016_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem016_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem017_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem017_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem018_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem018_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem019_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem019_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem020_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem020_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem021_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem021_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem022_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem022_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem023_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem023_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem024_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem024_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level1/problem025_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level1/problem025_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem026_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem026_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem027_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem027_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem028_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem028_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem029_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem029_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem030_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem030_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem031_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem031_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level2/problem032_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level2/problem032_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/level3/problem067_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/level3/problem067_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/math_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/math_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/euler/sequtil_spec.clj" beforeDir="false" afterPath="$PROJECT_DIR$/spec/euler/sequtil_spec.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem001.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem001.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem002.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem002.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem003.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem003.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem006.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem006.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem007.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem007.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem009.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem009.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem010.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem010.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem011.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem011.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem013.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem013.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem016.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem016.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem018.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem018.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem021.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem021.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem023.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem023.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem024.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem024.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level1/problem025.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level1/problem025.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level2/problem026.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level2/problem026.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level2/problem027.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level2/problem027.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level2/problem030.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level2/problem030.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level2/problem032.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level2/problem032.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/euler/level3/problem067.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/euler/level3/problem067.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leiningen/euler.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/leiningen/euler.clj" afterDir="false" />
     </list>
-    <ignored path="sample.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" time="1364999888741" ignored="false" />
-    <file path="/fragment.java" changelist="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" time="1364999941432" ignored="false" />
-    <file path="/sandbox.clj" changelist="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" time="1365000069681" ignored="false" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
-  <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <breakpoint_rules />
-    <ui_properties />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="sample" />
-    <favorites_list name="euler" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="sandbox.clj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/euler/sandbox.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="46" selection-start="111" selection-end="111" vertical-scroll-proportion="0.03768844">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="changedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/euler/level2/problem027.clj" />
-        <option value="$PROJECT_DIR$/src/euler/level2/problem028.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/level2/problem028_spec.clj" />
-        <option value="$PROJECT_DIR$/src/euler/level2/problem029.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/level2/problem029_spec.clj" />
-        <option value="$PROJECT_DIR$/src/euler/sequtil.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/sequtil_spec.clj" />
-        <option value="$PROJECT_DIR$/src/euler/level1/problem016.clj" />
-        <option value="$PROJECT_DIR$/src/euler/level2/problem030.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/level2/problem030_spec.clj" />
-        <option value="$PROJECT_DIR$/src/euler/level2/problem031.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/level2/problem031_spec.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/level2/problem032_spec.clj" />
-        <option value="$PROJECT_DIR$/src/euler/level2/problem032.clj" />
-        <option value="$PROJECT_DIR$/spec/euler/sandbox.clj" />
-        <option value="$PROJECT_DIR$/project.clj" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="1.5 (1)" />
-  </component>
-  <component name="ModuleEditorState">
-    <option name="LAST_EDITED_MODULE_NAME" />
-    <option name="LAST_EDITED_TAB_NAME" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1414" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="level2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="euler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Favorites" />
-    </panes>
+  <component name="ProjectId" id="1cxAEkOwuHowYFAW0cRYNDJgV8h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="253" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="262" />
-    <property name="project.structure.proportion" value="0.09046214" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="259" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="266" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1060" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1058" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="264" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="260" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.clojure.settings.ClojureConfigurable" />
-    <property name="project.structure.side.proportion" value="0.10130719" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.speclj vigilance">
-    <configuration default="false" name="problem15_spec" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="euler" />
-      <setting name="path" value="$PROJECT_DIR$/spec/euler/level1/problem15_spec.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/spec/euler/level1" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
+  <component name="RunManager">
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="problem20_spec" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="euler" />
-      <setting name="path" value="$PROJECT_DIR$/spec/euler/level1/problem20_spec.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/spec/euler/level1" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="problem026_spec" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="euler" />
-      <setting name="path" value="$PROJECT_DIR$/spec/euler/level2/problem026_spec.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/spec/euler/level2" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="problem031_spec" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="euler" />
-      <setting name="path" value="$PROJECT_DIR$/spec/euler/level2/problem031_spec.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/spec/euler/level2" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sandbox" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="euler" />
-      <setting name="path" value="$PROJECT_DIR$/spec/euler/sandbox.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/spec/euler" />
-      <setting name="repl" value="false" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="" />
-      <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" runner="emma" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="speclj vigilance" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="speclj.main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-a" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="euler" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method>
-        <option name="Make" enabled="false" />
-      </method>
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Application.speclj vigilance" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Script.problem15_spec" />
-      <item index="2" class="java.lang.String" itemvalue="Clojure Script.problem20_spec" />
-      <item index="3" class="java.lang.String" itemvalue="Clojure Script.problem026_spec" />
-      <item index="4" class="java.lang.String" itemvalue="Clojure Script.problem031_spec" />
-      <item index="5" class="java.lang.String" itemvalue="Clojure Script.sandbox" />
-    </list>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3fb7208f-f6ed-4d78-beda-75d8e0b09d0d" name="Default" comment="" />
-      <created>1292368826606</created>
-      <updated>1292368826606</updated>
+      <changelist id="3bed4f74-1faf-4f2f-b78b-db846d1a2155" name="Default Changelist" comment="" />
+      <created>1591459760931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591459760931</updated>
+      <workItem from="1591459762916" duration="1499000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922202" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14240254" sideWeight="0.63678515" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36321485" sideWeight="0.9490243" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3285985" sideWeight="0.9406734" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
-    <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
-    </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/euler/level2/problem031.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/level2/problem032_spec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1332" selection-end="1332" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem015.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="25" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/math.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/level1/problem001_spec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem001.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level2/problem032.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/sequtil_spec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="120" selection-end="120" vertical-scroll-proportion="0.13190955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/sequtil.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/level2/problem029_spec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="114" selection-end="114" vertical-scroll-proportion="0.09422111">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level2/problem029.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.16959798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/math_spec.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem004.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.22613065">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/euler/level1/problem014.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.37688443">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/euler/sandbox.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="46" selection-start="111" selection-end="111" vertical-scroll-proportion="0.03768844">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Clojure</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>abstract (v1.0.0, RVM: ruby-1.9.3-p125 [global]) [gem]</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Clojure|euler</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.10130719" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="987" y="486" width="586" height="548" key="find.popup" timestamp="1591461165230">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="987" y="486" width="586" height="548" key="find.popup/2560.343.1792.1097/0.23.2560.1417@0.23.2560.1417" timestamp="1591461165230" />
   </component>
 </project>
-

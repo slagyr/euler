@@ -1,6 +1,6 @@
 (ns euler.level2.problem026
-  (:use
-    [euler.math :only (primes)]))
+  (:require
+    [euler.math :refer [primes]]))
 
 (defn- magnify [remainder divisor]
   (if (> remainder divisor)

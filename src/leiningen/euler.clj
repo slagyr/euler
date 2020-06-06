@@ -4,8 +4,8 @@
 
 (def spec-template
 "(ns euler.level!L!.problem!NS!-spec
-  (:use
-    [speclj.core]
+  (:require
+    [speclj.core :refer :all]
     [euler.level!L!.problem!NS!]))
 
 ; http://projecteuler.net/index.php?section=problems&id=!N!

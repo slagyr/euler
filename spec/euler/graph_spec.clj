@@ -1,7 +1,7 @@
 (ns euler.graph-spec
-  (:use
-    [speclj.core]
-    [euler.graph]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.graph :refer :all]))
 
 (describe "Graph"
   (it "makes a new graph"

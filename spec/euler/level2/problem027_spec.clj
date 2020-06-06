@@ -1,7 +1,7 @@
 (ns euler.level2.problem027-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem027]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem027 :refer :all]))
 
 ;Euler published the remarkable quadratic formula:
 ;

@@ -1,6 +1,6 @@
 (ns euler.level1.problem010
-  (:use
-    [euler.math :only (primes)]))
+  (:require
+    [euler.math :refer [primes]]))
 
 (defn euler-10 [n]
   (apply +

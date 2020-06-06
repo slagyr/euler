@@ -1,7 +1,7 @@
 (ns euler.level1.problem025-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem025]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem025 :refer :all]))
 
 ;The Fibonacci sequence is defined by the recurrence relation:
 ;

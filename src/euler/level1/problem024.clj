@@ -1,6 +1,7 @@
 (ns euler.level1.problem024
-  (:use
-    [clojure.contrib.combinatorics :only (lex-permutations)]))
+  (:require
+    [clojure.math.combinatorics :refer [permutations]]))
 
 (defn euler-24 [seq position]
-  (last (take position (lex-permutations seq))))
+  (last (take position (permutations seq)))
+  )

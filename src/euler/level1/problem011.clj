@@ -1,6 +1,6 @@
 (ns euler.level1.problem011
-  (:use
-    [euler.io :only (str->grid)])
+  (:require
+    [euler.io :refer [str->grid]])
   (:require
     [clojure.string :as string]))
 

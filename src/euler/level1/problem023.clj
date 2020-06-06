@@ -1,6 +1,6 @@
 (ns euler.level1.problem023
-  (:use
-    [euler.math :only (naturals-upto abundant?)]))
+  (:require
+    [euler.math :refer [naturals-upto abundant?]]))
 
 (defn abundant-numbers-upto [max]
   (filter abundant? (naturals-upto max)))

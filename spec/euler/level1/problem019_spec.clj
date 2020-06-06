@@ -1,7 +1,7 @@
 (ns euler.level1.problem019-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem019]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem019 :refer :all]))
 
 ;You are given the following information, but you may prefer to do some research for yourself.
 ;

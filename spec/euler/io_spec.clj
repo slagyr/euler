@@ -1,7 +1,7 @@
 (ns euler.io-spec
-  (:use
-    [speclj.core]
-    [euler.io]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.io :refer :all]))
 
 (def sample "
 1 2 3

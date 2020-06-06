@@ -1,6 +1,6 @@
 (ns euler.level1.problem025
-  (:use
-    [euler.math :only (naturals fib)]))
+  (:require
+    [euler.math :refer [naturals fib]]))
 
 (defn min-value-with-digits [n]
   (if (= 1 n)

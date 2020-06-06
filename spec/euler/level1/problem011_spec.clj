@@ -1,8 +1,8 @@
 (ns euler.level1.problem011-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem011]
-    [euler.io :only (str->grid)]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem011 :refer :all]
+    [euler.io :refer [str->grid]]))
 
 (describe "Euler Problem #11"
 

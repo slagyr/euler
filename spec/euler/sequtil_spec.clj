@@ -1,7 +1,7 @@
 (ns euler.sequtil_spec
-  (:use
-    [speclj.core]
-    [euler.sequtil]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.sequtil :refer :all]))
 
 (describe "Seq Util"
 

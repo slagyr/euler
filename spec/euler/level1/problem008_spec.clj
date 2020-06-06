@@ -1,7 +1,7 @@
 (ns euler.level1.problem008-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem008]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem008 :refer :all]))
 
 (describe "Euler Problem #8"
 

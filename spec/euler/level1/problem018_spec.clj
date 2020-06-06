@@ -1,7 +1,7 @@
 (ns euler.level1.problem018-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem018]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem018 :refer :all]))
 
 (def small-triangle
 "3

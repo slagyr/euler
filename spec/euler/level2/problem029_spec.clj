@@ -1,7 +1,7 @@
 (ns euler.level2.problem029-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem029]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem029 :refer :all]))
 
 ;Consider all integer combinations of a^b for 2 < a < 5 and 2 < b < 5:
 ;

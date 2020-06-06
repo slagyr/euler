@@ -1,6 +1,6 @@
 (ns euler.level1.problem002
-  (:use
-    [euler.math :only (fib)]))
+  (:require
+    [euler.math :refer [fib]]))
 
 (defn fibs-upto
   ([n] (fibs-upto n (fib)))

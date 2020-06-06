@@ -1,7 +1,7 @@
 (ns euler.level3.problem067-spec
-  (:use
-    [speclj.core]
-    [euler.level3.problem067]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level3.problem067 :refer :all]))
 
 ; http://projecteuler.net/index.php?section=problems&id=67
 

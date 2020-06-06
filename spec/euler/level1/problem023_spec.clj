@@ -1,8 +1,8 @@
 (ns euler.level1.problem023-spec
-  (:use
-    [speclj.core]
-    [euler.level1.problem023]
-    [euler.math :only (abundant?)]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level1.problem023 :refer :all]
+    [euler.math :refer [abundant?]]))
 
 
 ;A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the

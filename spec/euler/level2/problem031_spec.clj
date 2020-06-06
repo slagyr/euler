@@ -1,7 +1,7 @@
 (ns euler.level2.problem031-spec
-  (:use
-    [speclj.core]
-    [euler.level2.problem031]))
+  (:require
+    [speclj.core :refer :all]
+    [euler.level2.problem031 :refer :all]))
 
 ; In England the currency is made up of pound, £, and pence, p, and there are eight coins in general circulation:
 ;
