@@ -79,6 +79,6 @@ Contributions are welcome.  Just submit a pull request.
 
 ## License
 
-Copyright (C) 2011 Micah Martin
+Copyright (C) 2020 Micah Martin
 
 Distributed under the MIT License.
