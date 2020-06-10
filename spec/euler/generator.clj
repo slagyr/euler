@@ -9,7 +9,7 @@
     [speclj.core :refer :all]
     [euler.level!L!.problem!NS! :refer :all]))
 
-; http://projecteuler.net/index.php?section=problems&id=!N!
+; https://projecteuler.net/problem=!N!
 
 (describe \"Euler Problem #!N!\"
 
