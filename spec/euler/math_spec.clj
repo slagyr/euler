@@ -101,6 +101,9 @@
       (should= 11 (nth primes 4))
       (should= 13 (nth primes 5))
       (should= 101 (nth primes 25)))
+
+    (it "calculates factorial"
+      (should= 24 (factorial 4)))
     )
   )
 

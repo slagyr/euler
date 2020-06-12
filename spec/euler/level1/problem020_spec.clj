@@ -19,9 +19,6 @@
 ;    (should= 149346 (euler-20 10000))
     )
 
-  (it "calculates factorial"
-    (should= 24 (factorial 4)))
-
   (it "sums the digits"
     (should= 1 (sum-of-digits 1))
     (should= 2 (sum-of-digits 2))

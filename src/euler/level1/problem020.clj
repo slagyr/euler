@@ -1,7 +1,8 @@
-(ns euler.level1.problem020)
+(ns euler.level1.problem020
+  (:require [euler.math :as emath]))
 
-(defn factorial [n]
-  (reduce * (range 1 (inc n))))
+;(defn factorial [n]
+;  (reduce * (range 1 (inc n))))
 
 (defn- get-int [n]
   (- (int n) (int \0)))
@@ -13,6 +14,6 @@
   (apply + (digits n)))
 
 (defn euler-20 [n]
-  (sum-of-digits (factorial n)))
+  (sum-of-digits (emath/factorial n)))
 
 

@@ -53,3 +53,6 @@
 (defn abundant? [n]
   (< n (apply + (proper-divisors n))))
 
+(defn factorial [n]
+  (reduce * (range 1 (inc n))))
+
