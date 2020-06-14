@@ -1,6 +1,6 @@
 (ns euler.level2.problem030
   (:require
-    [euler.sequtil :refer [digits]]))
+    [euler.core :refer [digits]]))
 
 (defn power-map [n]
   (reduce

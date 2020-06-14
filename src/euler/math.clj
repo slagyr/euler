@@ -41,6 +41,9 @@
   (concat [2 3 5 7]
     (iterate next-prime 11)))
 
+(defn primes< [n]
+  (take-while #(< % n) primes))
+
 (defn proper-divisors [n]
   (filter #(= 0 (mod n %)) (range 1 (inc (/ n 2)))))
 

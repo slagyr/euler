@@ -1,7 +1,6 @@
 (ns euler.level2.problem033
   (:require
-    [euler.sequtil :as sequtil]
-    [euler.math :as emath]
+    [euler.core :as core]
     [clojure.set :as set]))
 
 (defn fraction-candidates-for-numerator [numerator]
@@ -13,8 +12,8 @@
     (mapcat fraction-candidates-for-numerator numerators)))
 
 (defn cancellation [[numerator denominator]]
-  (let [numerators (set (sequtil/digits numerator))
-        denominators (set (sequtil/digits denominator))
+  (let [numerators (set (core/digits numerator))
+        denominators (set (core/digits denominator))
         common-digit (set/intersection numerators denominators)]
     (when (seq common-digit)
       (let [n (set/difference numerators common-digit)
