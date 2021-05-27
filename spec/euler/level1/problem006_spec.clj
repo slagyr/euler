@@ -14,7 +14,7 @@
     (should= 3025 (get-square-sum 10))
     )
   (it "Solves #6"
-    (should= -1 (euler-6 100)))
+    (should= 25164150 (euler-6 100)))
   )
 
 (run-specs)
