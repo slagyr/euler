@@ -1,5 +1,9 @@
 (ns euler.level1.problem009)
 
+(defn perfect-square? [n]
+ (let [root (Math/sqrt n)] (zero? (- root (int root))))
+ )
+
 (defn pythagorean-triplet? [[a b c]]
  (= (Math/pow c 2) (+ (Math/pow a 2) (Math/pow b 2))))
 
