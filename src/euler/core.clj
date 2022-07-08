@@ -7,6 +7,9 @@
 (defn s->i [s]
   (Integer/parseInt s))
 
+(defn digits->n [digits]
+  (s->i (apply str digits)))
+
 (defn ->inspect [x]
   (prn x)
   x)
